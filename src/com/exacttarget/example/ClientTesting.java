@@ -30,8 +30,10 @@ public class ClientTesting {
 	        //CreateTriggeredSend.Run(ps,"ExampleTSD","example@example.com","Darth", "Vader");	  
 	        //CreateDataExtension.Run(ps, "API Created DE Example - Java", "API Created DE Example - Java");
 	        //CreateImportDefinition.Run(ps,"API Created ImportDefinition - Java", "APICreatedIDJava", "API Created DE Example - Java","importexample.csv");
+	        //PerformImportDefinition.Run(ps, "APICreatedIDJava");
+	        RetrieveImportResultsSummary.Run(ps,"126640754");
 	        
-	        UpdateSubscriber.Run(ps,"mclark@exacttarget.com",1947888);
+	        //UpdateSubscriber.Run(ps,"mclark@exacttarget.com",1947888);
 			
 		} catch (RemoteException e) {			
 			e.printStackTrace();
